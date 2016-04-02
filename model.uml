@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_8TqEkMOMEeWiNuqQqyo7-g" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_8VDLsMOMEeWiNuqQqyo7-g" name="parking">
+    <region xmi:id="_8VLukMOMEeWiNuqQqyo7-g" name="Region0">
+      <transition xmi:id="_ldw9UM6BEeWgO_ATTBxzMw" name="Transition0" source="_XrUhIM6BEeWgO_ATTBxzMw" target="_aSv2YM6BEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_eCebAM6CEeWgO_ATTBxzMw" name="Transition1" source="_aSv2YM6BEeWgO_ATTBxzMw" target="_XX71oM6CEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_bxZhgM6IEeWgO_ATTBxzMw" name="Transition2" source="_XX71oM6CEeWgO_ATTBxzMw" target="_XxtY0M6IEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_66lnEM6IEeWgO_ATTBxzMw" name="Transition3" source="_XxtY0M6IEeWgO_ATTBxzMw" target="_zZd_AM6IEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_FpdkkM6JEeWgO_ATTBxzMw" name="Transition4" source="_XxtY0M6IEeWgO_ATTBxzMw" target="_AY1_gM6JEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_f9B_AM6JEeWgO_ATTBxzMw" name="Transition5" source="_zZd_AM6IEeWgO_ATTBxzMw" target="_ZU-s8M6JEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_8UMB0M6JEeWgO_ATTBxzMw" name="Transition6" source="_ZU-s8M6JEeWgO_ATTBxzMw" target="_AY1_gM6JEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_HMmV0M6KEeWgO_ATTBxzMw" name="Transition7" source="_zZd_AM6IEeWgO_ATTBxzMw" target="_AY1_gM6JEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_cit-0M6KEeWgO_ATTBxzMw" name="Transition8" source="_ZU-s8M6JEeWgO_ATTBxzMw" target="_YjRtwM6KEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_eYIBQM6KEeWgO_ATTBxzMw" name="Transition9" source="_YjRtwM6KEeWgO_ATTBxzMw" target="_AY1_gM6JEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_jL0ZwM6KEeWgO_ATTBxzMw" name="Transition10" source="_YjRtwM6KEeWgO_ATTBxzMw" target="_XxtY0M6IEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_T9bukM6LEeWgO_ATTBxzMw" name="Transition11" source="_YjRtwM6KEeWgO_ATTBxzMw" target="_P7j0kM6LEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_MbE68M6MEeWgO_ATTBxzMw" name="Transition12" source="_P7j0kM6LEeWgO_ATTBxzMw" target="_FWp18M6MEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_N2jacM6MEeWgO_ATTBxzMw" name="Transition13" source="_FWp18M6MEeWgO_ATTBxzMw" target="_J6ktEM6MEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_SJRz4M6MEeWgO_ATTBxzMw" name="Transition14" source="_L0bqUM6PEeWgO_ATTBxzMw" target="_QYt1MM6MEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_FWM4EM6OEeWgO_ATTBxzMw" name="Transition15" source="_FWp18M6MEeWgO_ATTBxzMw" target="___1QUM6NEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_o4r5IM6OEeWgO_ATTBxzMw" name="Transition16" source="___1QUM6NEeWgO_ATTBxzMw" target="_FWp18M6MEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_5dQesM6OEeWgO_ATTBxzMw" name="Transition17" source="___1QUM6NEeWgO_ATTBxzMw" target="_J6ktEM6MEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_5n82UM6PEeWgO_ATTBxzMw" name="Transition18" source="_J6ktEM6MEeWgO_ATTBxzMw" target="_J6ktEM6MEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_As0AMM6QEeWgO_ATTBxzMw" name="Transition19" source="_J6ktEM6MEeWgO_ATTBxzMw" target="_L0bqUM6PEeWgO_ATTBxzMw"/>
+      <transition xmi:id="_FHUcoM6QEeWgO_ATTBxzMw" name="Transition20" source="_L0bqUM6PEeWgO_ATTBxzMw" target="_L0bqUM6PEeWgO_ATTBxzMw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_XrUhIM6BEeWgO_ATTBxzMw" name="begin"/>
+      <subvertex xmi:type="uml:State" xmi:id="_aSv2YM6BEeWgO_ATTBxzMw" name="initialize"/>
+      <subvertex xmi:type="uml:State" xmi:id="_XX71oM6CEeWgO_ATTBxzMw" name="get_sensor_data"/>
+      <subvertex xmi:type="uml:State" xmi:id="_XxtY0M6IEeWgO_ATTBxzMw" name="drive"/>
+      <subvertex xmi:type="uml:State" xmi:id="_zZd_AM6IEeWgO_ATTBxzMw" name="start_Obst"/>
+      <subvertex xmi:type="uml:State" xmi:id="_AY1_gM6JEeWgO_ATTBxzMw" name="no_possible_parking_space"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZU-s8M6JEeWgO_ATTBxzMw" name="possible_spot"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YjRtwM6KEeWgO_ATTBxzMw" name="stop_for_parking"/>
+      <subvertex xmi:type="uml:State" xmi:id="_P7j0kM6LEeWgO_ATTBxzMw" name="backwards_right"/>
+      <subvertex xmi:type="uml:State" xmi:id="_FWp18M6MEeWgO_ATTBxzMw" name="backwards_left"/>
+      <subvertex xmi:type="uml:State" xmi:id="_J6ktEM6MEeWgO_ATTBxzMw" name="stop"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_QYt1MM6MEeWgO_ATTBxzMw" name="end"/>
+      <subvertex xmi:type="uml:State" xmi:id="___1QUM6NEeWgO_ATTBxzMw" name="forward_right"/>
+      <subvertex xmi:type="uml:State" xmi:id="_L0bqUM6PEeWgO_ATTBxzMw" name="done"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_-snqkMONEeWiNuqQqyo7-g" name="TimeTriggeredConferenceModule">
+    <generalization xmi:id="_RVMtkM52EeWgO_ATTBxzMw" general="_Hnq4UM52EeWgO_ATTBxzMw"/>
+    <generalization xmi:id="_SSVrQM52EeWgO_ATTBxzMw" general="_IkE2MM52EeWgO_ATTBxzMw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_F_KrQMR3EeWodYwK1PDXAA" clientDependency="_UAsqgM52EeWgO_ATTBxzMw _Vci9cM52EeWgO_ATTBxzMw" name="Driver">
+    <generalization xmi:id="_egg4UM52EeWgO_ATTBxzMw" general="_abbSQM52EeWgO_ATTBxzMw"/>
+    <generalization xmi:id="_fn1swM52EeWgO_ATTBxzMw" general="_Z9624M52EeWgO_ATTBxzMw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_JbJp8MR3EeWodYwK1PDXAA" clientDependency="_gfH6EM52EeWgO_ATTBxzMw _iwYLAM52EeWgO_ATTBxzMw" name="ActionDriver"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Hnq4UM52EeWgO_ATTBxzMw" name="setUp"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_IkE2MM52EeWgO_ATTBxzMw" name="tearDown"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UAsqgM52EeWgO_ATTBxzMw" name="Usage0" client="_F_KrQMR3EeWodYwK1PDXAA" supplier="_Hnq4UM52EeWgO_ATTBxzMw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Vci9cM52EeWgO_ATTBxzMw" name="Usage1" client="_F_KrQMR3EeWodYwK1PDXAA" supplier="_IkE2MM52EeWgO_ATTBxzMw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Z9624M52EeWgO_ATTBxzMw" name="Routine"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_abbSQM52EeWgO_ATTBxzMw" name="Initialize"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_gfH6EM52EeWgO_ATTBxzMw" name="Usage2" client="_JbJp8MR3EeWodYwK1PDXAA" supplier="_Z9624M52EeWgO_ATTBxzMw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_iwYLAM52EeWgO_ATTBxzMw" name="Usage3" client="_JbJp8MR3EeWodYwK1PDXAA" supplier="_abbSQM52EeWgO_ATTBxzMw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Cyk5YM69EeWCA4IooqZ8_w" name="TimeTriggeredConferenceModule">
+    <ownedOperation xmi:id="_nQ_-QM69EeWCA4IooqZ8_w" name="setUp"/>
+    <ownedOperation xmi:id="_nsQ98M69EeWCA4IooqZ8_w" name="tearDown"/>
+    <ownedOperation xmi:id="_bTXJcNAvEeWvGu5kGwOGzw" name="body"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KATEUM69EeWCA4IooqZ8_w" name="DriverManager">
+    <generalization xmi:id="_RAKZcM69EeWCA4IooqZ8_w" general="_Cyk5YM69EeWCA4IooqZ8_w"/>
+    <ownedAttribute xmi:id="_qxXvkNAvEeWvGu5kGwOGzw" name="driverGeneric" type="_Kf38QM69EeWCA4IooqZ8_w" association="_qxY9sNAvEeWvGu5kGwOGzw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qxXvkdAvEeWvGu5kGwOGzw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qxXvktAvEeWvGu5kGwOGzw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_l-y78NAwEeWvGu5kGwOGzw" name="stopCar"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Kf38QM69EeWCA4IooqZ8_w" name="DriverGeneric">
+    <generalization xmi:id="_R6gh0M69EeWCA4IooqZ8_w" general="_Cyk5YM69EeWCA4IooqZ8_w"/>
+    <ownedOperation xmi:id="_kGtMgM69EeWCA4IooqZ8_w" name="Initialize"/>
+    <ownedOperation xmi:id="_mQPr4M69EeWCA4IooqZ8_w" name="Routine"/>
+    <ownedOperation xmi:id="_UFyTANAwEeWvGu5kGwOGzw" name="getControlData"/>
+    <ownedOperation xmi:id="_UiLUENAwEeWvGu5kGwOGzw" name="getStopControlData"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SqplUM69EeWCA4IooqZ8_w" name="LaneFollowingDriver">
+    <generalization xmi:id="_aGCY0M69EeWCA4IooqZ8_w" general="_Kf38QM69EeWCA4IooqZ8_w"/>
+    <ownedOperation xmi:id="_uGbxcNAwEeWvGu5kGwOGzw" name="calculateDesiredHeading"/>
+    <ownedOperation xmi:id="_xdM48NAwEeWvGu5kGwOGzw" name="calculateErr"/>
+    <ownedOperation xmi:id="_z4_l8NAwEeWvGu5kGwOGzw" name="laneFollowing"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TDFTcM69EeWCA4IooqZ8_w" name="ParkingDriver">
+    <generalization xmi:id="_bEx5AM69EeWCA4IooqZ8_w" general="_Kf38QM69EeWCA4IooqZ8_w"/>
+    <ownedOperation xmi:id="_GIIP4NAxEeWvGu5kGwOGzw" name="parking"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qxY9sNAvEeWvGu5kGwOGzw" name="driverManager_driverGeneric_1" visibility="package" memberEnd="_qxY9sdAvEeWvGu5kGwOGzw _qxXvkNAvEeWvGu5kGwOGzw">
+    <ownedEnd xmi:id="_qxY9sdAvEeWvGu5kGwOGzw" name="driverManager" type="_KATEUM69EeWCA4IooqZ8_w" association="_qxY9sNAvEeWvGu5kGwOGzw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qxY9stAvEeWvGu5kGwOGzw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qxY9s9AvEeWvGu5kGwOGzw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_QBNN0NAxEeWvGu5kGwOGzw" name="PARKING_STATE"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_WpUxUNAxEeWvGu5kGwOGzw" name="DRIVING_STATE" visibility="package">
+    <ownedLiteral xmi:id="_g7gy0NAxEeWvGu5kGwOGzw" name="DRIVE=0"/>
+    <ownedLiteral xmi:id="_lnxGkNAxEeWvGu5kGwOGzw" name="START_OBST=1"/>
+    <ownedLiteral xmi:id="_p6A-4NAxEeWvGu5kGwOGzw" name="POSSIBLE_SPOT = 2"/>
+    <ownedLiteral xmi:id="_qR2QENAxEeWvGu5kGwOGzw" name="STOP_FOR_PARKING = 3"/>
+    <ownedLiteral xmi:id="_qnJKoNAxEeWvGu5kGwOGzw" name="PARKING = 4"/>
+    <ownedLiteral xmi:id="_xVZyYNAxEeWvGu5kGwOGzw" name="EnumerationLiteral1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_4yHcYNJyEeW2TKzHEGvcWA" name="msv">
+    <packagedElement xmi:type="uml:Class" xmi:id="_RFXsQNJwEeW2TKzHEGvcWA" clientDependency="_hjxmINJ1EeW2TKzHEGvcWA" name="Lines"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QjnqENJwEeW2TKzHEGvcWA" name="CustomLine"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RyppANJwEeW2TKzHEGvcWA" clientDependency="_0zOdkNJ1EeW2TKzHEGvcWA _6Z2u4NJ1EeW2TKzHEGvcWA" name="LaneDetectionData"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Rkw-ANJwEeW2TKzHEGvcWA" clientDependency="_noXl0NJ1EeW2TKzHEGvcWA" name="LaneDetectorDataToDriver"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_hjxmINJ1EeW2TKzHEGvcWA" name="Usage1" client="_RFXsQNJwEeW2TKzHEGvcWA" supplier="_QjnqENJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_noXl0NJ1EeW2TKzHEGvcWA" name="Usage2" client="_Rkw-ANJwEeW2TKzHEGvcWA" supplier="_QjnqENJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_0zOdkNJ1EeW2TKzHEGvcWA" name="Usage3" client="_RyppANJwEeW2TKzHEGvcWA" supplier="_Rkw-ANJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_6Z2u4NJ1EeW2TKzHEGvcWA" name="Usage4" client="_RyppANJwEeW2TKzHEGvcWA" supplier="_RFXsQNJwEeW2TKzHEGvcWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kr_wwNJ0EeW2TKzHEGvcWA" name="LaneDetector">
+    <packagedElement xmi:type="uml:Class" xmi:id="_PBRGgNJwEeW2TKzHEGvcWA" clientDependency="_DiYPENJ1EeW2TKzHEGvcWA" name="LaneDetector"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8zdQNJwEeW2TKzHEGvcWA" clientDependency="_YVre4NJ1EeW2TKzHEGvcWA _am56oNJ1EeW2TKzHEGvcWA" name="LineDetector"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QQ6wgNJwEeW2TKzHEGvcWA" clientDependency="_RRwJINJ1EeW2TKzHEGvcWA _RAsY4NJ2EeW2TKzHEGvcWA" name="LaneDetector_inspection"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_DiYPENJ1EeW2TKzHEGvcWA" name="Usage1" client="_PBRGgNJwEeW2TKzHEGvcWA" supplier="_O8zdQNJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_RRwJINJ1EeW2TKzHEGvcWA" name="Usage2" client="_QQ6wgNJwEeW2TKzHEGvcWA" supplier="_O8zdQNJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_YVre4NJ1EeW2TKzHEGvcWA" name="Usage3" client="_O8zdQNJwEeW2TKzHEGvcWA" supplier="_QjnqENJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_am56oNJ1EeW2TKzHEGvcWA" name="Usage4" client="_O8zdQNJwEeW2TKzHEGvcWA" supplier="_RFXsQNJwEeW2TKzHEGvcWA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_RAsY4NJ2EeW2TKzHEGvcWA" name="Usage5" client="_QQ6wgNJwEeW2TKzHEGvcWA" supplier="_RFXsQNJwEeW2TKzHEGvcWA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KwWaUNN1EeW9HJFIEGRa1Q" name="Proxy">
+    <ownedAttribute xmi:id="_p_5mkNN1EeW9HJFIEGRa1Q" name="camera" type="_L3UpcNN1EeW9HJFIEGRa1Q" association="_p_5mk9N1EeW9HJFIEGRa1Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p_5mkdN1EeW9HJFIEGRa1Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p_5mktN1EeW9HJFIEGRa1Q" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_uv-N4NN2EeW9HJFIEGRa1Q" name="nextString" visibility="private"/>
+    <ownedOperation xmi:id="_0UveANN2EeW9HJFIEGRa1Q" name="setUp" visibility="protected"/>
+    <ownedOperation xmi:id="_3rDSgNN2EeW9HJFIEGRa1Q" name="tearDown" visibility="protected"/>
+    <ownedOperation xmi:id="_4zdFANN2EeW9HJFIEGRa1Q" name="body"/>
+    <ownedOperation xmi:id="_8xCU4NN2EeW9HJFIEGRa1Q" name="distribute" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LgQNQNN1EeW9HJFIEGRa1Q" name="UEyeCamera">
+    <generalization xmi:id="_mc-5cNN1EeW9HJFIEGRa1Q" general="_L3UpcNN1EeW9HJFIEGRa1Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L3UpcNN1EeW9HJFIEGRa1Q" name="Camera">
+    <ownedOperation xmi:id="_y5EmsNN1EeW9HJFIEGRa1Q" name="copyImageTo" visibility="protected"/>
+    <ownedOperation xmi:id="_2D91YNN1EeW9HJFIEGRa1Q" name="captureFrame" visibility="protected"/>
+    <ownedOperation xmi:id="_4DYIYNN1EeW9HJFIEGRa1Q" name="isValid" visibility="protected"/>
+    <ownedOperation xmi:id="_5h1DYNN1EeW9HJFIEGRa1Q" name="getName" visibility="protected"/>
+    <ownedOperation xmi:id="_7NbpkNN1EeW9HJFIEGRa1Q" name="getID" visibility="protected"/>
+    <ownedOperation xmi:id="_85KyoNN1EeW9HJFIEGRa1Q" name="getWidth" visibility="protected"/>
+    <ownedOperation xmi:id="_-ei1ANN1EeW9HJFIEGRa1Q" name="getHeight" visibility="protected"/>
+    <ownedOperation xmi:id="__5M1INN1EeW9HJFIEGRa1Q" name="getBPP" visibility="protected"/>
+    <ownedOperation xmi:id="_BPDNwNN2EeW9HJFIEGRa1Q" name="getSize" visibility="protected"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MOGKsNN1EeW9HJFIEGRa1Q" name="OpenCVCamera">
+    <generalization xmi:id="_fDEsoNN1EeW9HJFIEGRa1Q" general="_L3UpcNN1EeW9HJFIEGRa1Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p_5mk9N1EeW9HJFIEGRa1Q" name="proxy_camera_1" memberEnd="_p_5mlNN1EeW9HJFIEGRa1Q _p_5mkNN1EeW9HJFIEGRa1Q">
+    <ownedEnd xmi:id="_p_5mlNN1EeW9HJFIEGRa1Q" name="proxy" type="_KwWaUNN1EeW9HJFIEGRa1Q" association="_p_5mk9N1EeW9HJFIEGRa1Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p_5mldN1EeW9HJFIEGRa1Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p_5mltN1EeW9HJFIEGRa1Q" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
